@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tables in HTML</title>
+        <meta charset="UTF-8"/>
+    </head>
+
+    <body>
+
+        <p align='center'>
+            <a href="2.07Multimedia.html"><button>Previous</button></a>
+            <a href="index.html"><button>INDEX</button></a>
+            <a href="2.9moreTags.html"><button>Next</button></a>  
+        </p>
+
+        <h2 align="center">Design</h2>
+        <ul>
+            <li>Make sure to sketch your layout before you code.</li>
+            <li>Decide on the number of rows and columns.</li>
+            <li>Decide if any row or column will span multiple cells.</li>
+        </ul>
+
+        <p>Browsers expect same number of cells in each row.So you need to identify 
+            which number of row or column to span.</p>
+        <h2 align="center">The tags</h2>
+        <ul>
+            <li>&lt;table&gt;-the container tag.</li>
+            <li>&lt;tr&gt;-the table rows.</li>
+            <li>&lt;td&gt;-the table columns(cells) in each row /(table data)</li>
+        </ul>
+        <h2 align="center">Table heading</h2>
+        <ul>
+            <li>
+                How would you add table heading?(The bold cells at top that define the data.)
+            </li>
+            <li>
+                Some people use bold font,we use semantic tags.
+            </li>
+            <li>
+                &lt;th&gt;....&lt;/th&gt;--table heading.Instead of table data (td) use Table Heading (th).
+            </li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>Row1</th> <th>Row2</th> <th>Row3</th>
+            </tr>
+            <tr>
+                <td>One</td> <td>Two</td> <td>Three</td>
+            </tr>
+            <tr>
+                <td>Four</td> <td>Five</td> <td>Six</td>
+            </tr>
+            <tr>
+                <td>Seven</td> <td>Eight</td> <td>Nine</td>
+            </tr>
+        </table>
+
+        <table border="1">
+            <tr>
+                <th>Child name</th> <th>Parent's name</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Catherine</td> <td>Michael McCarthy</td>
+            </tr>
+            <tr>
+                <td>Maggie</td> 
+            </tr>
+            <tr>
+                <td rowspan="2">Edward</td> <td>Catherine Howard</td>
+            </tr>
+            <tr>
+                <td>Jeff Howard</td><td>Shalia</td>
+            </tr>
+        </table>
+        <p>The browser expect same num of column/cells in each row.in 5th row there is an 
+            extra cell.so the browser will show extra blank cell in each row.</p>
+        
+            <p align='center'>
+                <a href="2.07Multimedia.html"><button>Previous</button></a>
+                <a href="index.html"><button>INDEX</button></a>
+                <a href="2.9moreTags.html"><button>Next</button></a>  
+            </p>
+        </body>
+
+</html>

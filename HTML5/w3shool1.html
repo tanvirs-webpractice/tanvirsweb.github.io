@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<!--This is comment:lang attribute declare the language of the webpage.
+en=English (1st 2 characters) defines the country.
+,US (last 2 letters)define the country.
+
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Elements</title>
+    </head>
+    <body style="background-color:rgb(139, 209, 192);">
+        <p>HTML is not case sensitive.</p>
+        <h2>HTML Tag Reference</h2>
+        <table border="2">
+            <caption>This is the caption of HTML Table</caption>
+            <tr>
+                <th>Tag</th><th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;html&gt;</td> <td>Defines the root of HTML document</td>
+            </tr>
+            <tr>
+                <td>&lt;body&gt;</td> <td>Defines the documents body</td>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; to &lt;h6&gt;</td> <td>Defines HTML headings</td>
+            </tr>
+        </table>
+
+        <h2 id="c4">HTML Attributes</h2>
+        <p>HTML attributes provide additional infomation about HTML elements.</p>
+        <ul>
+            <li>All HTML elements can have attributes.</li>
+            <li>Attributes provide <b>additional imformation</b> about elements.</li>
+            <li>Attributes are always specified in the <b>start tag.</b></li>
+            <li>Attributes usually come in name/value pairs like <b>name="value"</b></li>
+        </ul>
+        <p>&lt;a href="https://www.w3shools.com&gt;visit w3xchools&lt;/a&gt;</p>
+        <a href="https://www.w3shools.com">visit w3xchools</a>
+
+        <p>&lt;img src="url"&gt;</p>
+        <img src="green leaf.jpg">
+        <p>
+            <b>The Style Attribute</b>
+        </p>
+        <p>
+            &lt;p style='color:red'&gt;this is a red paragraph&lt;/p&gt;
+            <br><p style='color:red'>this is a red paragraph</p>
+        </p>
+
+        <h2>The title attribute</h2>
+        <p>The title attribute defines some extra information about an element.
+            The value of the title attribute will be displayed as a tooltip when you mouse over the element.
+        </p>
+        <p>&lt;p title="I'm a tooltip"&gt;This is a pragraph&lt;p&gt;</p>
+        <p title="I'am a tooltip">This is a pragraph</p>
+
+        <p><ul>
+            <li>Always use lowercase attributes.Though the page will display 
+            if you use uppercase attributes,W3C recommends lowercase attributes.</li>
+            <li>Always quote attribute values.'/" both ok. 
+            Don't use same qutation inside same qutation.Use " inside ' and ' inside ".</li>
+        </ul></p>
+
+        <p title=About W3Schools>without qutaton title won't run. </p>
+        <p title='About W3Schools'>with qutaton</p>
+
+        <p> Each HTML heading has a default size.But you can specify the size of any heading with the
+         <b>style</b> attribute,using CSS <b>font-size</b> property.</p>
+        <p>&lt;h1 style="font-size:50px ; color:red"&gt;Heading 1&lt;h1&gt;</p>
+        <h1 style="font: size 50; color:red">Heading 1</h1>
+        
+        <hr>
+        <p>&lt;hr&gt; element is used to separate content (or define a change) in HTML page.
+            Print horizontal line in newline.
+        </p>
+        
+        <p>This is an example of description list:</p>
+        <dl>
+            <dt>description term:</dt> <dd>description data (describes each term)</dd>
+            <dt>Coffee:</dt> <dd>Black hot drink.</dd>
+            <dt>Milk:</dt> <dd>White cold drink.</dd>
+        </dl>
+
+        <div style='background-color:black;color:white;padding:20px:'>
+        <h2>London</h2>
+        
+            London is the capital city of England.It is the most populous city
+            in the United Kingdom,with a metropolitan area of over 13 million inhabitants.
+            I want to study in Oxford University England.&lt;div&gt; itself is a block tag.
+        
+        </div>
+
+        <p>Here is an example of span tag.Span elementis an inline container used to mark up a part of a text
+            ,or part of a  document.
+        </p>
+        <p>My mother has <span style="color:blue;font-weight:bold">Blue</span> eyes and my 
+            father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+            <p>Create a bookmark (Go to HTML attributes),from within the same page.</p>
+            <a href="#c4">Go to HTML attributes.</a>
+
+        <p>Add a link to the bookmark from another page <b>using id &amp; href attribute.</b><a href="2.03.html#idName">Learn footer tag.</a></p>
+    
+    
+        <p>Here is a example of iframe.</p>
+        <iframe src="2.03.html" height="300" width="80%" style="border-block-color: black;background-color: rgb(243, 233, 215);" title="iframe example"></iframe>
+
+        
+    </body>
+</html>

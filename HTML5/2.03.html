@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Image,nav,figure,header tags.header tag & head tag are not same.</title>
+    </head>
+    <body>
+        <p align='center'>
+            <a href="2.02.html"><button>Previous</button></a>
+            <a href="index.html"><button>INDEX</button></a>
+            <a href="2.04.html"><button>Next</button></a>  
+        </p>
+
+        <header>
+            <h1>This is the title.Header tag has no extra feature<br>
+             it's just good for those who use screen readers not visual of webpage.</h1>
+            <h2>The author is Colleen.</h2>
+            <h3>The header tag and head tag are not same.</h3>
+        </header>
+
+        <nav>
+            <p>The nav tag is used to define a section of page that links to other pages or  to parts within the page. </p>
+            <p>It's not like adding link of facebook/google it's for link of other part of your webpage.</p>
+            <p>Each of them go to other part of the page (to navigte through your page.).</p>
+            <p>There are conflicts about the nav tag should use list or not?</p>
+            <ul>
+                <li><a href="#overview">overview</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#devlopment">Development</a></li>
+            </ul>
+        </nav>
+
+        <footer id="idName">
+            <p>The use of footer tag is it's A section that contains info such as copyrigt <br>
+            data,related documents,and link to social media.Typically at the bottom of the page,but not required.</p>
+            &copy: 2015 by Collen Van Lonis.<br>
+            <a href="http://www.intro-webdesign.com/HTML5">Intoduction to HTML5.</a>
+        </footer>
+
+        <h3>Figure tag is more semantic than &lt;img&gt;.<br>
+        It can include caption and multi-media resourses.</h3>
+        <p>This tag goes specificly with the &lt;img&gt; tag</p>
+        <figure>
+            <img src="D:\WALL PAPERS\Leaf.jpg" width="80%" alt="Error while loading image" title="title of the image is Leaf" class="thumbnail"/>
+
+            <figcaption>green leaf in the morning.</figcaption>
+        </figure>
+        <p>If width="x%" in &lt;img&gt; tag means whatever the page zoom in/out size of image will be x% of page width (image size dynamic).</p>
+        <p>If width="500px" in &lt;img&gt; tag means the size of image is fixed.
+        Do not tell size of width & height both,otherwise the picture may seem ....bad shape
+        using width="value%" is better practice.If you write higth="60%" then the heigth of 
+        the page will be 60% of the heigth of the webpage.
+        </p>
+
+        <p>If you won't use %/px=pixel in &lt;img&gt; the image shown in webpage will be uploaded size.
+            If you have used image from net...the size may be unwanted.So make sure to use width attribute.
+        </p>
+
+        <p align='center'>
+            <a href="2.02.html"><button>Previous</button></a>
+            <a href="index.html"><button>INDEX</button></a>
+            <a href="2.04.html"><button>Next</button></a>  
+        </p>
+    </body>
+</html>

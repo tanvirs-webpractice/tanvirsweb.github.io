@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Use multimedia video/audio in HTML.</title>
+    </head>
+    <body>
+        <p align='center'>
+            <a href="2.06.html"><button>Previous</button></a>
+            <a href="index.html"><button>INDEX</button></a>
+            <a href="2.08Tables.html"><button>Next</button></a>  
+        </p>
+
+        <h3 align="center">Objective</h3>
+        <ol>
+            <li>Describe HTML5 audio and video elements.</li>
+            <li>Explain the purpose of plugins.</li>
+            <li>Reflect on accessibiliy issues.</li>
+        </ol>
+        <ul>
+            <h3 align="center">HTML5 multimedia</h3>
+            <li>Designed to avoid the use of extra software to play music/video.</li>
+            <li>Not fully implemented.</li>
+        </ul>
+
+        <h3 align="center">Video element &lt;video&gt;</h3>
+        <ul>
+            <li>Video tags uses a src attribute or embedded &lt;source&gt;</li>
+            <li>Common attributes
+                <ul>
+                    <li>height,width:<br>how big your video would you like to appear on your browser?</li>
+                    <li>autoplay:<br>dictates whether or not the video should start as soon as you load the page.</li>
+                    <li>loop:<br> allow the video to play over and over.</li>
+                    <li>cntrols:<br>is something you can give the person more control over when to stop and start over the video.</li>
+                </ul>
+            </li>
+            <li>Text inside &lt;video&gt;...&lt;/video&gt; is displayed if browser cannot support tag</li>
+        </ul>
+        <p>If you use a video tag it's good to put some text in there along with the different attributes.
+            That way if the browser for some reason does not support the tag or can't play the video,you 
+            get a kind of helpful hint to the user letting them know there should be a video here that you would be
+            looking at.
+        </p>
+        <h3 align ="center">Audio element &lt;audio&gt;</h3>
+        <ul>
+            <li>Audio tag uses a src attribute to link to audio file,typically .mp3 or .wav</li>
+            <li>Common attributes</li>
+            <ul type="disc">
+                <li>autoplay,controls,loop</li>
+                <li>buffered</li>
+                <li>muted</li>
+                <li>volume</li>
+            </ul>
+        </ul>
+        <p>If prefix of main list item is disc then sublist becomes circle by default.</p>
+    
+        <h3 align ="center">Setting clips</h3>
+        <ul>
+            <li>You can set both the video and audio elements to play clips by adding to the src attribute.</li>
+            <ul type="disc">
+                <li>.ext#t=5,25
+                    <br>start at 5 sec and stop at 25 sec
+                </li>
+                <li>.ext#t=,39
+                    <br>start at begining and stop at 39 sec.
+                </li>
+                <li>.ext#t=,1:38:45
+                    <br>I want to start at one minute and 38 seconds,and just go ahead and play to 45.
+                </li>
+                <li>.ext#t=42
+                    <br>start at 45 second and play from there.
+                </li>
+            </ul>
+        </ul>
+
+        <h1 align="center">Play video</h1>
+        <video src="10% discount at GP Mobicash [Watch the Commercial] [Optimum quality and size].mkv" width="400" controls>
+            Your browser does not support the <code>video</code> element.
+        </video>
+        <p>The arrtibutes of video & audio do not have a value it's rather like boolean True and False.
+            The chrome support only mkv type video not mp4.
+        </p>
+        
+        <h1 align="center">Play Audio From internet</h1>
+        <audio src="https://upload.wikimedia.org/wikipedia/commons/0/04/Pyotr_Ityich_Tchaikovsky_-_1812_overture.ogg" controls>
+            Pyotr Ilyich Tchaikovsky - 1812 overture
+        </audio>
+        <br>
+
+                
+        <h1 align="center">Play Audio From your website</h1>
+        <p>Maherzain and Atif Aslam Islamic song:</p>
+        <audio src="Maher Zain & Atif Aslam - I'm Alive (Official Music Video).mp3" controls>
+            Maherzain and Atif Aslam song
+        </audio>
+        <br>
+
+        <p align='center'>
+            <a href="2.06.html"><button>Previous</button></a>
+            <a href="index.html"><button>INDEX</button></a>
+            <a href="2.08Tables.html"><button>Next</button></a>  
+        </p>
+
+    </body>
+</html>

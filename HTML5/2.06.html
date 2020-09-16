@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>hyperlinks</title>
+    </head>
+    <body>
+
+        <p align='center'>
+            <a href="2.05.html"><button>Previous</button></a>
+            <a href="index.html"><button>INDEX</button></a>
+            <a href="2.07Multimedia.html"><button>Next</button></a>  
+        </p>
+
+        <p>Links are what make the web a web.The interlinked nature of web leads 
+            to the "knowledge" that search engines appear to have.
+        </p>
+        <p>Anchor links: The &lt;a&gt; stands for anchor link.Needs a hyper-reference AND content.
+            <br>href: reference to location of new content.
+        </p>
+        <a href="http://www.umich.edu">University of Michigan</a>
+        <p>The &lt;a&gt; tag stands for anchor link.
+        <br>Needs hyper-reference AND content.
+        <br>href: reference to location of new content.
+        <br>content: the "clickable" part (text or image)
+        </p>
+        <p>
+            <ol>
+                <p>There are many types of links.</p>
+                <li>Absolute</li>
+                <li>Relative</li>
+                <li>Internal</li>
+                <li>Graphical</li>
+            </ol>
+        </p>
+
+        <h3>Absolute reference:<a href="http://www.intro-webdesign.com">Learn web design with HTML</a></h3>
+
+        <p>There are 3 parts of URL.
+            <ol>
+                <li>protocol:http</li>
+                <li>host</li>
+                <li>document</li>
+            </ol>
+            <br>you need to add all of them in Absolute reference.&lt;li&gt; adds enter before and after line(the list element stands in a unique line.)
+        </p>
+        
+        <h3>Relative reference:</h3>
+        <p>Link to a local file in the same folder<a href="1.2.html">Second page.</a> </p>
+        <p>Link to a local file in a different folder called "docs" <a href="docs/page2.html">Second page.</a></p>
+        <p>There is another location inside the same file and it's called history.<a href="#history">History section.</a></p>
+    
+        <p>So if you are linking to somebody else's page
+         it's reallu helpfull to use relative link instead of absolute.With absolute links,you are saying,I am not in charge of 
+         this page,somebody else is.Include a full REFERENCE  in a Absolute link.
+        </p>
+
+        <p>Use RELATIVE link when you are developing your own site.And it's really helpfull to use relative links instead of absolute,so
+            that way if you move your page to a different server,or you move it into a different folder,you don't 
+            need to rename everything.Your links should never have folders that are specific to your computer.
+        </p>
+
+        <h3>Graphical reference:</h3>
+        <p><br>The clickable component doesn't have to be text,it can be image.Make sure there is a alt tag with the image.
+        <a href="http://www.redcross.org"><img src="imgs/redcross-logo.png" width="50%" alt="REd cross logo"/></a>
+        </p>
+    
+        
+        <p>Usability Issues:
+            <ul>
+                <li>Make sure the clickable component has an information name.</li>
+                <li>Information in the images should be available to those who can't see the image.</li>
+            </ul>
+        </p>
+
+        
+        <h3>
+            Internal reference:
+        </h3>
+        <p>Here is a example of Internal reference:Internal reference is the link of a specific place 
+            in the same page.The has tag makes the link internal.
+            <a href="#history">go to history.</a> </p>
+
+            <p align='center'>
+                <a href="2.05.html"><button>Previous</button></a>
+                <a href="index.html"><button>INDEX</button></a>
+                <a href="2.07Multimedia.html"><button>Next</button></a>  
+            </p>
+    </body>
+</html>

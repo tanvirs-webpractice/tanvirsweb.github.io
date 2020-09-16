@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Form</title>
+    </head>
+    <body>
+        <p align='center'>
+            <a href="HTMLform.html"><button>Previous</button></a>
+            <a href="index.html"><button>INDEX</button></a>
+            <a href="1.1.html"><button>Next</button></a>  
+        </p>
+
+        <ul>
+            <li><a href="#"><span class="bold">Bold Text</span></a></li>
+            <li><a href="#"><span class="italic">Italicize Text</span></a></li>
+            <li><a href="#"><span class="underline">Underline Text</span></a></li>
+            <li><a href="#"><span class="size">Size Text</span></a></li>
+            <li><a href="#"><span class="bullet">Bullet Text</span></a></li>
+            <li><a href="#"><span class="number">Number Text</span></a></li>
+            <li><a href="#"><span class="quote">Quote Text</span></a></li>
+            <li><a href="#"><span class="left">Left Align Text</span></a></li>
+            <li><a href="#"><span class="center">Center Align Text</span></a></li>
+            <li><a href="#"><span class="right">Right Align Text</span></a></li>
+        </ul>
+
+       <form action="demo_form.asp">
+        <fieldset>
+          First name:<input type="text" name="fname"><br>
+          Last name:<input type="text" name="lname"><br>
+          <input type="submit" value="submit">
+        </fieldset>
+        </form>
+
+        <p>This is an example of textarea tag.</p>
+        <textarea rows="3" cols="50">Bangladesh is my motherland.I love Bangladesh.It is a beautiful country.</textarea>
+
+        <p><b>Select tag:(create dropdown)</b></p>
+        <select>
+            <option value="Volvo">Volvo</option>
+            <option value="saab">saab</option>
+            <option value="mercedes">mercedes</option>
+            <option value="audi">audi</option>
+        </select>
+
+        <p><b>Dropdown list:</b></p>
+        <select name="dropdown">
+            <option>PSC</option>
+            <option>JSC</option>
+            <option>SSC</option>
+            <option>HSC</option>
+        </select>
+
+        <hr>
+        <button type="button" onclick="alert('onclick alert message !')">text to appeat on button</button>
+
+        <hr>
+        <label for="male">label provide information about input element in form.</label>
+
+        <form style="background-color: rgb(196, 201, 200);color:rgb(35, 63, 223);">
+            <fieldset>
+                <legnd>legend tag represents the caption of the box.&amp; fieldset tag group items of form.</legnd> <br>
+                Name:<input type="text" ><br>
+                Email:<input type="text"><br>
+                Date of birth:<input type="text">
+            </fieldset>
+
+            <p>You can only select only one item of same name for using radio type.</p>
+            <input type="radio" name="gender" value="male">male<br>
+            <input type="radio" name="gender" value="female">female<br>
+            <input type="radio" name="gender" value="other ">other<br>
+
+            <p>You can select multiple value of same name using checkbox.Even you can select all the options.
+            And you may use no tik mark.
+            </p>
+            <input type="checkbox" name="vehicle" value="Cycle">I have a cycle.<br>
+            <input type="checkbox" name="vehicle" value="Rickshaw">I have a rickshaw<br>
+            <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+            <input type="checkbox" name="vehicle" value="Car">I have a car<br>
+        </form>
+
+        <p align='center'>
+            <a href="HTMLform.html"><button>Previous</button></a>
+            <a href="index.html"><button>INDEX</button></a>
+            <a href="1.1.html"><button>Next</button></a>  
+        </p>
+    </body>
+</html>
+                    
